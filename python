@@ -1,0 +1,15 @@
+total = int(input("Total: "))
+money = int(input("Enter your money: "))
+change = money - total
+fraction = 0
+return1 = change // 10
+print("10 baht: %d" % return1)
+fraction = change % 10
+return1 = fraction // 5
+print("5 baht: %d" % return1)
+fraction = change % 5
+return1 = fraction // 2
+print("2 baht: %d" % return1)
+fraction = change % 2
+return1 = fraction // 1
+print("1 baht: %d" % return1)
